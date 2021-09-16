@@ -1,3 +1,11 @@
-# I'm folder2
+---
+sort: 1
+---
 
-source: `{{ page.path }}`
+# Test Documentation
+
+```
+{% raw %}{% include list.liquid all=true %}{% endraw %}
+```
+
+{% include list.liquid all=true %}

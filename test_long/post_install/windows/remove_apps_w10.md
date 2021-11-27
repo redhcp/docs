@@ -2,7 +2,7 @@
 sort: 3
 ---
 
-
+# List or Remove apps default win10
 
 **List apps installed**
 ```scss

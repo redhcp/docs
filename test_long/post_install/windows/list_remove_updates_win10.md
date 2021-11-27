@@ -1,8 +1,8 @@
 ---
-sort: 3
+sort: 2
 ---
 
-## This script, allow check or unistall updates win10 installed.
+# Check-Unistall updates win10 installed.
 
 **CMD**
 ```scss

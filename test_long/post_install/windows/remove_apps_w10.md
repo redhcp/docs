@@ -16,7 +16,7 @@ Get-AppxPackage -AllUsers | Where-Object {$_.PackageFullName -like "*NAME_SEARCH
 **Remove PACKAGE_NAME**
 ```scss
 Get-AppxPackage PACKAGE_NAME | Remove-AppxPackage
->option2**
+#option2
 Get-AppxPackage -PackageTypeFilter Main, Bundle, Resource | Where-Object {$_.PackageFullName -like "*NAME_SEARCH*"}  | Remove-AppxPackage -Allusers
 ```
 

@@ -1,5 +1,5 @@
 ---
-sort: 10
+sort: 20
 ---
 
 # Test Documentation
@@ -7,5 +7,3 @@ sort: 10
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
 ```
-
-{% include list.liquid all=true %}

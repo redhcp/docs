@@ -1,8 +1,8 @@
 ---
-sort: 10
+sort: 1
 ---
 
-# Windows
+# Ubuntu
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}

@@ -2,6 +2,6 @@
 sort: 2
 ---
 
-# This is long menu
+# Menu
 
 {% include list.liquid all=true %}

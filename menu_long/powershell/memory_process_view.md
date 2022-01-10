@@ -2,20 +2,24 @@
 sort: 1
 ---
 
-# Powershell Disk Size
+# Memory Process View
 
 
 
-**DiskSize**
 
+## Get Computer Object
 ```scss
+$CompObject =  Get-WmiObject -Class WIN32_OperatingSystem
+$Memory = ((($CompObject.TotalVisibleMemorySize - $CompObject.FreePhysicalMemory)*100)/ $CompObject.TotalVisibleMemorySize)
  
-  Write-Host "Host: $env:COMPUTERNAME ($(Get-Date -Format “MM/dd/yyyy”)) "  -foregroundcolor "green" 
-  Get-WMIObject  -Class Win32_LogicalDisk | Where-Object {$_.DriveType -eq 3} `
-    | Select-Object @{n="Unit";e={($_.Name)}}, 
-                    @{n="Label";e={($_.VolumeName)}}, 
-                    @{n='Size (GB)';e={"{0:n2}" -f ($_.size/1gb)}}, 
-                    @{n='Free (GB)';e={"{0:n2}" -f ($_.freespace/1gb)}}, 
-                    @{n='% Free';e={"{0:n2}" -f ($_.freespace/$_.size*100)}}
+Write-Host "Memory usage in Percentage:" $Memory
+
+```
+
+
+## Top 5 process Memory Usage (MB)
+```scss
+$processMemoryUsage = Get-WmiObject WIN32_PROCESS | Sort-Object -Property ws -Descending | Select-Object -first 5 processname, @{Name="Mem Usage(MB)";Expression={[math]::round($_.ws / 1mb)}}
+$processMemoryUsage
 
 ```

@@ -2,7 +2,7 @@
 sort: 6
 ---
 
-# Prune Logs 
+# Handler Activity Task
 
 **Task for handle services,process,scheduletask,etc with powershell** 
 

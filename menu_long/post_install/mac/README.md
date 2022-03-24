@@ -1,8 +1,8 @@
 ---
-sort: 1
+sort: 20
 ---
 
-# Ubuntu
+# Mac
 
 {% include list.liquid all=true %}
 

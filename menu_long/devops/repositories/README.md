@@ -2,6 +2,6 @@
 sort: 10
 ---
 
-# Post-Install
+# Repositories
 
 {% include list.liquid all=true %}

@@ -1,7 +1,7 @@
 ---
-sort: 10
+sort: 5
 ---
 
-# Post-Install
+# Video Courses
 
 {% include list.liquid all=true %}

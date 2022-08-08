@@ -5,7 +5,7 @@ sort: 5
 # Video Courses DevOps
 
 
-## Video Courses DevOps
+#### Video Courses DevOps
 
 
 - [Simple DevOps Project-1 - Simple DevOps project for CI/CD - CI/CD through Jenkins](https://www.youtube.com/watch?v=Z9G5stlXoyg&ab_channel=ValaxyTechnologies) 
@@ -119,13 +119,3 @@ sort: 5
 #### SSH
 
  * [How to Install PuTTY on Windows + SSH Connections Using PuTTY on Windows](https://lnkd.in/gGgW7Ns9)
-
-
-## Websites to learn Devops
-* [https://kodekloud.com/](https://kodekloud.com/ )
-* [https://acloudguru.com/](https://acloudguru.com/)
-* [https://www.katacoda.com/](https://www.katacoda.com/)
-
-
-#### Thanks for share
-- [Ann Afamefuna - LinkedIn](https://ng.linkedin.com/in/ann-afamefuna)

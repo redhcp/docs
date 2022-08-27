@@ -6,7 +6,7 @@ sort: 1
 
 >[HomeBrew Page for check more info](https://brew.sh)
 
-### [For more Formulae(packages) here](https://formulae.brew.sh/formula/)  
+>### [For more Formulas(packages) here](https://formulae.brew.sh/formula/)  
 
 ## Brew Terminology
 - Formula: A package definition written in Ruby

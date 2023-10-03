@@ -13,4 +13,12 @@ This theme is inspired by [sphinx-rtd-theme](https://github.com/readthedocs/sphi
 remote_theme: rundocs/jekyll-rtd-theme
 ```
 
+```yml
+remote_theme: rundocs/jekyll-rtd-theme
+
+bundle add webrick
+
+bundle exec jekyll serve
+```
+
 You can [generate](https://github.com/rundocs/starter-slim/generate) with the same files and folders from [rundocs/starter-slim](https://github.com/rundocs/starter-slim/)
